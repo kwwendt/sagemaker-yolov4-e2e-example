@@ -30,3 +30,4 @@ docker build -t ${algorithm_name} .
 docker tag ${algorithm_name} ${fullname}
 
 docker push ${fullname}
+echo ${fullname}
